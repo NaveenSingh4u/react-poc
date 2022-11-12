@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import SignupForm from './formik-components/SignupForm';
 import HotelIntegration from './hotel-booking-app/HotelIntegration';
-import ComboBox from './inputs/AutoComplete-ComboBox';
-import BasicButtons, {IconLabelButtons}  from './inputs/Button-All';
-import ToggleButtons from './inputs/Toggle-All';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <HotelIntegration/>
+    <SignupForm/>
   </React.StrictMode>
 );
